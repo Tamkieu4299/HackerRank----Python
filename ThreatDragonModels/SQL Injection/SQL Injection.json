@@ -370,6 +370,64 @@
               "privilegeLevel": "",
               "threats": []
             }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Login Request\n",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Login Request\n"
+            ],
+            "id": "66c3d437-6dd2-4f8f-83e7-336282036baf",
+            "source": {
+              "x": 150,
+              "y": 180
+            },
+            "target": {
+              "cell": "8687328b-c2ba-4a68-af62-f8436000579d",
+              "port": "d81680f6-3f39-4075-8a68-4febbdf8b461"
+            },
+            "vertices": [
+              {
+                "x": 310,
+                "y": 70
+              },
+              {
+                "x": 470,
+                "y": 70
+              },
+              {
+                "x": 560,
+                "y": 110
+              }
+            ]
           }
         ]
       }
